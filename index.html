@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 🎬 CAC-Movies</title>
+    <link rel="stylesheet" href="css/style.css">    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navegacion">
+            <a class="logo" href="index.html"> 🎞CAC-Movies</a>
+
+            <ul class="listado">
+                <li class="Item align-right" id="itemNegro">
+                    <a href="iniciarSesion.html" class="boton-iniciar-sesion">Iniciar Sesión</a>
+                </li>
+                <li class="Item align-right">
+                    <a href="registrarse.html">Registrarse</a>
+                </li>
+                <li class="Item align-right">Tendencias</li>
+                
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main animate__animated animate__fadeInDown">
+            <h1 class="tituloPrincipal">Películas y Series ilimitadas en un solo lugar</h1>
+            <h2 class="tituloSecundario">Disfruta donde quieras.</h2>
+            <h2 class="tituloSecundario">Cancela en cualquier momento</h2>
+            <a href="registrarse.html" class="botonRegistrarse" >Registrate</a>
+        </div>
+    </main>
+
+    <section class="seccionBuscador">
+        <h2 class="tituloSeccion">¿Qué estás buscando para ver?</h2>
+        <div>
+            <input type="text" placeholder="Buscar..." class="buscador">
+            <input type="submit" value="Buscar" class="botonBuscar">
+        </div>
+    </section>
+    <hr>
+    
+    <section class="seccionTendencias tendencias-section">
+        <h2 class="tituloSeccion" id="T" >Las Tendencias de hoy</h2>
+        <!--A partir de aca se suben las peliculas-->
+        <div class="contenedorPeliculas">
+            <div class="pelicula">
+                <img src="img/peliculas_Proyecto_PHP/peli_1.jpg" alt="The Beekeeper" alt width="250" height="350" class="borderImage">
+                <div class="tituloPelicula">
+                    <h4>The Beekeeper</h4>
+                </div>
+            </div>    
+            <div class="pelicula">
+                <img src="img/peliculas_Proyecto_PHP/peli_2.jpg" alt="Bandlants Hunters" alt width="250" height="350" class="borderImage">
+                <div class="tituloPelicula">
+                    <h4>Badlants Hunters</h4>
+                </div>
+            </div>
+            <div class="pelicula">
+                <img src="img/peliculas_Proyecto_PHP/peli_3.jpg" alt="The Marvels" alt width="250" height="350" class="borderImage">
+                <div class="tituloPelicula">
+                    <h4>The Marvels</h4>
+                </div>
+            </div>
+                    
+            <div class="pelicula">
+                <img src="img/peliculas_Proyecto_PHP/peli_4.jpg"" alt="Wonka" alt width="250" height="350" class="borderImage">
+                <div class="tituloPelicula">
+                    <h4>Wonka</h4>
+                </div>
+            </div>
+                    
+                
+            <div class="pelicula">
+                <img src="img/peliculas_Proyecto_PHP/peli_5.jpg" alt="Aquaman and the lost Kingdom" alt width="250" height="350" class="borderImage">
+                <div class="tituloPelicula">
+                    <h4>Aquaman</h4>
+                </div>
+            </div>
+            <div class="pelicula">
+                <img src="img/peliculas_Proyecto_PHP/peli_6.jpg" alt="Migration" alt width="250" height="350" class="borderImage">
+                <div class="tituloPelicula">
+                    <h4>Migration</h4>
+                </div>
+            </div>
+            <div class="pelicula">
+                <img src="img/peliculas_Proyecto_PHP/peli_7.jpg" alt="60 Minutes" alt width="250" height="350" class="borderImage">
+                <div class="tituloPelicula">
+                    <h4>60 Minutes</h4>
+                </div>
+            </div>
+            <div class="pelicula">
+                <img src="img/peliculas_Proyecto_PHP/peli_8.jpg" alt="Wish" alt width="250" height="350" class="borderImage">
+                <div class="tituloPelicula">
+                    <h4>Wish</h4>
+                </div>
+            </div>
+            <div class="pelicula">
+                <img src="img/peliculas_Proyecto_PHP/peli_9.jpg" alt="The Masked Saint" alt width="250" height="350" class="borderImage">
+                <div class="tituloPelicula">
+                    <h4>The Masked Saint</h4>
+                </div>
+            </div>
+            <div class="pelicula">
+                <img src="img/peliculas_Proyecto_PHP/peli_10.jpg" alt="Due Justice" alt width="250" height="350" class="borderImage">
+                <div class="tituloPelicula">
+                    <h4>Due Justice</h4>
+                </div>
+            </div>
+            <div class="pelicula">
+                <img src="img/peliculas_Proyecto_PHP/peli_11.jpg" alt="Orion and The  Dark" alt width="250" height="350" class="borderImage">
+                <div class="tituloPelicula">
+                    <h4>Orion and The  Dark</h4>
+                </div>
+            </div>
+            <div class="pelicula">
+                <img src="img/peliculas_Proyecto_PHP/peli_12.jpg" alt="Genghis Khan" alt width="250" height="350" class="borderImage">
+                <div class="tituloPelicula">
+                    <h4>Genghis Khan</h4>
+                </div>
+            </div>
+        </div>
+        <div class="anteriorSiguiente">
+            <input type="submit" value="Anterior" class="botonRegistrarse">
+            <input type="submit" value="Siguiente" class="botonRegistrarse">
+        </div>
+    </section>
+    <hr class="hr">
+    <section class="seccionAclamadas aclamadas-section">
+        <h2 class="tituloSeccion" id="T">Las Más Aclamadas</h2>
+        <div class="contenedorPeliculas">
+            <div class="pelicula">
+                <img src="img/peliculas_Proyecto_PHP/aclamada_1.jpg" alt="The Shawshank Redemption" alt width="200" height="300" class="borderImage">
+            </div>
+            <div class="pelicula">
+                <img src="img/peliculas_Proyecto_PHP/aclamada_2.jpg" alt="The Godfather" alt width="200" height="300" class="borderImage">
+            </div>
+            <div class="pelicula">
+                <img src="img/peliculas_Proyecto_PHP/aclamada_3.jpg" alt="The Godfather Part II" alt width="200" height="300" class="borderImage">
+            </div>
+            <div class="pelicula">
+                <img src="img/peliculas_Proyecto_PHP/aclamada_4.jpg" alt="Schindler's  List" alt width="200" height="300" class="borderImage">
+            </div>
+            <div class="pelicula">
+                <img src="img/peliculas_Proyecto_PHP/aclamada_5.jpg" alt="12 Ungry Men" alt width="200" height="300" class="borderImage">
+            </div>
+            <div class="pelicula">
+                <img src="img/peliculas_Proyecto_PHP/aclamada_6.jpg" alt="Spirited Away" alt width="200" height="300" class="borderImage">
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer class="footerColor">
+        <nav class="navegacionF">
+            <ul class="listFooter">
+                <li class="item footer-item" >Términos Y Condiciones</li>
+                <li class="item footer-item">Preguntas Frecuentes</li>
+                <li class="item footer-item">Ayuda</li>
+                <li class="item footer-item" id="obscuro">Administrar Pelicula</li>
+            </ul>
+        </nav>
+    </footer>
+
+    
+    
+</body>
+</html>
